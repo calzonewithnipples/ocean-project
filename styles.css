@@ -1,0 +1,118 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: 'Mont-R';
+}
+
+/* Fonts */
+/* Spartan-ExtraLight */
+@font-face {
+    font-family: 'Mont-L';
+    src: url('./fonts/Montserrat-Light.ttf') format('truetype');
+}
+/* Spartan-Regular */
+@font-face {
+    font-family: 'Mont-R';
+    src: url('./fonts/Montserrat-Regular.ttf') format('truetype');
+}
+/* Spartan-SemiBold */
+@font-face {
+    font-family: 'Mont-B';
+    src: url('./fonts/Montserrat-SemiBold.ttf') format('truetype');
+}
+
+.my-container {
+    margin-bottom: 2rem;
+}
+
+.page-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Mont-B';
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 4rem;
+}
+
+.navbar-link-clicked {
+    font-family: 'Mont-B';
+}
+
+.navbar-image {
+    height: 4rem;
+    margin-right: 1rem;
+}
+
+.hero-container {
+}
+
+.hero-header {
+    font-family: 'Mont-B';
+}
+
+.page-content {
+    display: flex;
+}
+
+.main-content {
+    width: 60%;
+}
+
+.blog-content {
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 35%;
+    margin-left: auto;
+    padding: 1rem;
+}
+
+.blog-header-button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    margin-bottom: 1rem;
+}
+
+.blog-header {
+    font-size: 1rem;
+    font-family: 'Mont-B';
+}
+
+.blog-post-and-link {
+    margin-bottom: 0.5rem;
+}
+
+.ocean-image {
+    width: 100%;
+}
+
+.contact-container {
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.services-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    margin-bottom: 2rem;
+    gap: 2rem;
+}
+
+.services-content-container {
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 1rem;
+}

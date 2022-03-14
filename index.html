@@ -1,90 +1,51 @@
-
 <!DOCTYPE html>
 <html lang="en">
-     <head>
+    <head>
         <title>Life Below the Waves</title>
-       
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="./styles.css" />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     </head>
-    
-    
-    
+
     <body>
-        <div class="container">
-            <div class="page-header"> 
-                <h1>Life Below the Waves 
-                    <small>  --- Aquatic Life in danger  </small>
-                </h1> 
-            </div> 
-
-            <br><br>
-            
-			<div class="jumbotron">
-                <h1>Welcome!</h1>
-                   <p>My mission with this site is to spread awareness of the detrimental impacts
-				   that our current way of life has on aquatic life. 
-           </p>
-		   <p>
-            <a class="btn-primary btn-lg" role="button" 
-              href = "https://oceanservice.noaa.gov/facts/coralreef-climate.html" target="_blank">
-             Learn more
-			</a>
-			<br><br>
-			<a class="btn-primary btn-lg" role="button"
-				href="https://medium.com/@music8000/life-below-the-waves-92e9e5f427f" target="_blank">
-				Visit our blog
-				</a>
-           </p>
-			<img src="coral.jpg" width="500" height="300">
-        </div>
-		
-		<nav>
-			<ul>
-				<li><a href="#">Navigation</a></li>
-				<li><a href="#">Menu</a></li>
-				<li><a href="#">Links</a></li>
-			</ul>
-		</nav>
-			
-			<div class = "row">
-               <div class = "col-sm-6">
-                 <a href="index.html" class="btn btn-info btn-lg" role="button">Home</a>
-                 <a href="about.html" class="btn btn-info btn-lg" role="button">About Us</a>
-                 <a href="services.html" class="btn btn-info btn-lg" role="button">Services</a>
-                 <a href = "https://google.com"  class = "btn btn-info btn-lg" role = "button"> Google </a>
-
-           
-         
-           
+        <div class="container my-container">
+            <div class="page-header">
+                <img class="navbar-image" src="./images/wave.png" alt="waves" />
+                <h1>Life Below the Waves</h1>
             </div>
-         </div>
-		<br/><br/>
-		<div class = "row">
-			<div class = "col-sm-6">
-				<p class="text-primary">This text is important.</p>
-				<p class="text-success">This text indicates success.</p>
-				<p class="text-info">This text represents some information.</p>
-				<p class="text-warning">This text represents a warning.</p>
-				<p class="text-danger">This text represents danger.</p>
-		</div>
-		
-		<div class = "col-sm-6">
-           <p class="bg-primary">This text is important.</p>
-           <p class="bg-success">This text indicates success.</p>
-           <p class="bg-info">This text represents some information.</p>
-           <p class="bg-warning">This text represents a warning.</p>
-           <p class="bg-danger">This text represents danger.</p>
-	</div>
+            <div class="navbar-container">
+                <a class="navbar-link-clicked" href="index.html">Home</a>
+                <a class="navbar-link" href="contact.html">Contact</a>
+                <a class="navbar-link" href="services.html">Services</a>
+            </div>
+            <div class="page-content">
+                <div class="main-content">
+                    <div>
+                        <div class="hero-container">
+                            <h3 class="hero-header">Aquatic Life in danger</h3>
+                            <p>My mission with this site is to spread awareness of the detrimental impacts that our current way of life has on aquatic life.</p>
+                        </div>
 
-	<a href="page2.html" >Page2</a>
-
-	
-
-
+                        <img class="ocean-image" src="coral.jpg" />
+                        <!-- <a class="btn-primary btn-lg" role="button" href="https://oceanservice.noaa.gov/facts/coralreef-climate.html" target="_blank"> Learn more </a> -->
+                    </div>
+                </div>
+                <div class="blog-content">
+                    <div class="blog-header-button-container">
+                        <h3>My Blog</h3>
+                        <a class="btn-primary btn-sm" role="button" href="https://medium.com/@music8000/life-below-the-waves-92e9e5f427f" target="_blank"> Visit my blog </a>
+                    </div>
+                    <div class="blog-post-and-link">
+                        <div class="blog-header">Why did I choose this blog site?</div>
+                        <a href="https://medium.com/@music8000/life-below-the-waves-92e9e5f427f" target="_blank">Read more...</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
